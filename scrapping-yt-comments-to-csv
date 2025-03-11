@@ -1,0 +1,15 @@
+#install python
+https://www.python.org/downloads/windows/
+
+#install the python-library
+pip install youtube-comment-downloader
+pip install https://github.com/egbertbouman/youtube-comment-downloader/archive/master.zip
+
+#run on terminal (GNU/Linux)and the output will be a json
+youtube-comment-downloader --url https://www.youtube.com/watch?v=lxD93HcGSdE --output file-output.json
+
+#run on terminal (Windows)and the output will be a json
+python -m youtube_comment_downloader --url https://www.youtube.com/watch?v=sg1ClOa7pgc --output sg1ClOa7pgc.json
+
+#convert the json file into csv
+https://www.convertcsv.com/json-to-csv.htm
